@@ -69,7 +69,7 @@ This project is a Django-based application for managing menus. It provides a fle
 
 ## Loading Test Data
 
-To populate the database with test data, you can use the management command `python manage.py populate_menu_items`.
+To populate the database with test data, you can use the management command `python manage.py loat_test_data`.
 This command will create a sample menu structure with multiple levels of items.
 
 ## Admin Interface
