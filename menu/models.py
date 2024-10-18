@@ -13,7 +13,6 @@ class Item(models.Model):
         max_length=MaxLength.ITEM_SLUG,
         blank=True,
         null=True,
-        unique=True,
     )
     menu = models.ForeignKey(
         verbose_name="Menu",
