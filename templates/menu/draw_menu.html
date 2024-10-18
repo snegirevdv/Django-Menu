@@ -1,0 +1,5 @@
+<ul class="menu">
+  {% for child in menu.children %}
+    {% include 'menu/menu_item.html' with item=child %}
+  {% endfor %}
+</ul>
