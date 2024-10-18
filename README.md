@@ -7,6 +7,8 @@
 - [Installation](#installation)
 - [Loading Test Data](#loading-test-data)
 - [Admin Interface](#admin-interface)
+- [Menu Rendering](#menu-rendering)
+- [URL Logic](#url-logic)
 
 This project is a Django-based application for managing menus. It provides a flexible structure for creating and organizing hierarchical menus with multiple levels of items.
 
@@ -79,7 +81,7 @@ The admin interface is provided to manage the menus and items. You can:
 
 To access the admin interface, navigate to `http://127.0.0.1:8000/admin/` and use the superuser credentials you created earlier.
 
-## Rendering Menu
+## Menu Rendering
 
 To render a menu in your templates, you can use the custom template tag `draw_menu`.
 
@@ -97,7 +99,7 @@ To render a menu in your templates, you can use the custom template tag `draw_me
 
 3. This will include the template `menu/draw_menu.html` to render the menu structure.
 
-## URL Logic for Menu Items
+## URL Logic
 
 The URL for menu items can be specified in different ways:
 
