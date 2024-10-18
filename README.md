@@ -1,4 +1,4 @@
-Django Menu
+# Django Menu
 
 ## Table of Contents
 
