@@ -1,4 +1,4 @@
-# Dynamic Menu for Django projects
+Django Menu
 
 ## Table of Contents
 
